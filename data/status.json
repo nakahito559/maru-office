@@ -1,0 +1,208 @@
+{
+  "updatedAt": "2026-11-27T22:15:00+09:00",
+  "subtitle": "순스튜디오 본부 · 5개 파트 가동 중",
+  "headline": "대표님, 5개 파트가 가동 중이에요",
+  "hint": "공간이나 담당자를 탭하면 최근 진행 현황을 바로 볼 수 있어요.",
+  "chips": ["가동 5파트", "마루 × 세컨폰"],
+  "parts": [
+    {
+      "id": "hq",
+      "name": "지휘실",
+      "emoji": "🧭",
+      "color": "#E08A6A",
+      "x": 46,
+      "y": 66,
+      "role": "마루 · 총괄",
+      "summary": "연재 등록·검수, 응모, 업로드 일정을 한자리에서 지휘합니다.",
+      "stats": [
+        { "label": "오늘 공개", "value": "3편" },
+        { "label": "공공 설문", "value": "166건" },
+        { "label": "가동 스케줄", "value": "5개" }
+      ],
+      "items": [
+        { "title": "오늘 연재 3편 모두 공개", "meta": "06:00 호구 19화 · 09:00 체리온 8화 · 18:00 판타지 4화" },
+        { "title": "공공 설문·이벤트 누적 166건", "meta": "11/26 밤 6건 추가 · 미당첨 찜은 정리 완료" },
+        { "title": "내일 06:00 《호구 약혼자》 20화 예약", "meta": "세컨드폰 원고 → 본폰 검수 후 등록" },
+        { "title": "카카오 선물하기 체험단 상시 신청", "meta": "디퓨저·방향제·골프용품·유아용품은 제외" }
+      ]
+    },
+    {
+      "id": "studio",
+      "name": "Studio.M",
+      "emoji": "✒️",
+      "color": "#7BB6E8",
+      "x": 18,
+      "y": 57,
+      "role": "노벨피아 연재",
+      "summary": "매일 4편이 다른 시간에 올라갑니다. 원고는 세컨드폰, 검수와 등록은 본폰.",
+      "stats": [
+        { "label": "연재 작품", "value": "4편" },
+        { "label": "비축 회차", "value": "14화" },
+        { "label": "오늘 공개", "value": "3편" }
+      ],
+      "items": [
+        { "title": "《호구 약혼자가 파혼했더니 집착하기 시작했다》 19화", "meta": "매일 06:00 · 선호 64", "url": "https://novelpia.com/novel/467540" },
+        { "title": "《해체 D-30 걸그룹 체리온, 1위 찍고 튀려는데 애들이 집착한다》 8화", "meta": "매일 09:00 · 선호 15 · 알람 5", "url": "https://novelpia.com/novel/468106" },
+        { "title": "《무림맹 첩자로 잠입했는데, 마교 여교주가 나를 첫사랑으로 착각한다》 3화", "meta": "매일 12:00 · 비축 4~10화", "url": "https://novelpia.com/novel/468903" },
+        { "title": "《배신당할 약혼자였던 내가 먼저 파혼하고 잠적했다》 4화", "meta": "매일 18:00 · 비축 5~10화", "url": "https://novelpia.com/novel/468904" }
+      ]
+    },
+    {
+      "id": "blog",
+      "name": "블로그·출판",
+      "emoji": "📚",
+      "color": "#9BC08A",
+      "x": 31,
+      "y": 26,
+      "role": "글쓰기 · 전자책",
+      "summary": "매일 한 편씩 블로그가 올라가고, 전자책과 컬러링북이 심사를 기다립니다.",
+      "stats": [
+        { "label": "블로그", "value": "1일 1편" },
+        { "label": "KDP", "value": "6권" },
+        { "label": "구글북스", "value": "9권" }
+      ],
+      "items": [
+        { "title": "네이버 블로그 오늘 1편 발행", "meta": "08:30 자동 포스팅 · 「연금저축·IRP 900만원, 12월 31일 전에 채우는 법」", "url": "https://blog.naver.com/nakahito2000" },
+        { "title": "티스토리 금융 채널 운영", "meta": "12/1 애드센스 재신청 준비", "url": "https://idea61160.tistory.com" },
+        { "title": "아마존 KDP 1~4권 심사 · 5·6권 예약", "meta": "5·6권은 11/29 09:05 동시 등록", "url": "https://kdp.amazon.com" },
+        { "title": "구글 플레이 북스 9권", "meta": "모두 계정 검토 대기 · 로판 2종 + 게임판타지", "url": "https://play.google.com/books/publish" },
+        { "title": "유페이퍼 《하루 10분, 생활비 방어 실전서》", "meta": "5만~6만 자로 늘릴지 방향 검토 중" }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "미디어실",
+      "emoji": "🎬",
+      "color": "#C79BE0",
+      "x": 67,
+      "y": 58,
+      "role": "음악 · 영상 · 스티커",
+      "summary": "체리온 음원과 뮤비, 라인 스티커, 잠들기 전 ASMR까지 이 방에서 나옵니다.",
+      "stats": [
+        { "label": "라인 스티커", "value": "24종" },
+        { "label": "판매 중", "value": "17종" },
+        { "label": "유튜브 공개", "value": "4편" }
+      ],
+      "items": [
+        { "title": "체리온 《CROWN OF LIGHT》 완곡 MV · 쇼츠", "meta": "유튜브 공개 완료 · AI 사용 고지 표기", "url": "https://www.youtube.com/watch?v=K_I182pjXrs" },
+        { "title": "체리온 《CROWN OF LIGHT》 쇼츠", "meta": "9:16 세로 버전", "url": "https://youtube.com/shorts/xNSheQPvUL0" },
+        { "title": "라인 스티커 24종", "meta": "판매 17 · 심사 4 · 대기 3 · 승인 후 '판매 개시' 필요" },
+        { "title": "루트노트 4곡 유통 심사", "meta": "영업일 20~22일 · 반영은 12월 중순 이후", "url": "https://routenote.com" },
+        { "title": "Rain Sleep ASMR 매일 1편", "meta": "빗소리 테마 · 채널 업로드 지속" }
+      ]
+    },
+    {
+      "id": "lounge",
+      "name": "라운지",
+      "emoji": "☕",
+      "color": "#E0B85F",
+      "x": 81,
+      "y": 41,
+      "role": "휴식 · 아이디어",
+      "summary": "잠깐 쉬어가는 자리. 다음에 할 일과 대표님 결정을 기다리는 것들이 모여 있어요.",
+      "stats": [
+        { "label": "결정 대기", "value": "3건" },
+        { "label": "다음 후보", "value": "2건" },
+        { "label": "오늘 메모", "value": "6건" }
+      ],
+      "items": [
+        { "title": "신작 삽화 5종 재생성 여부", "meta": "정해지지 않으면 그대로 등록됩니다" },
+        { "title": "라인 심사 4종 승인 확인", "meta": "승인되면 '판매 개시'를 눌러야 판매 시작" },
+        { "title": "유페이퍼 재구상 방향", "meta": "5만~6만 자 확장 여부" },
+        { "title": "다음 응모 후보 2건", "meta": "전쟁기념관 웹진 독자 설문 · 참가격 장보기 퀴즈" }
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time": "06:00",
+      "title": "《호구 약혼자가 파혼했더니 집착하기 시작했다》",
+      "detail": "매일 1편 · 오늘 19화 공개",
+      "status": "완료",
+      "next": "내일 06:00 20화",
+      "url": "https://novelpia.com/novel/467540"
+    },
+    {
+      "time": "08:30",
+      "title": "네이버 블로그 자동 포스팅",
+      "detail": "매일 1편 · 오늘 글 발행 완료",
+      "status": "완료",
+      "next": "내일 08:30 새 글",
+      "url": "https://blog.naver.com/nakahito2000"
+    },
+    {
+      "time": "09:00",
+      "title": "《해체 D-30 걸그룹 체리온》",
+      "detail": "매일 1편 · 오늘 8화 공개",
+      "status": "완료",
+      "next": "내일 09:00 9화",
+      "url": "https://novelpia.com/novel/468106"
+    },
+    {
+      "time": "12:00",
+      "title": "《무림맹 첩자로 잠입했는데, 마교 여교주가 나를 첫사랑으로 착각한다》",
+      "detail": "매일 1편 · 3화까지 공개 · 비축 4~10화",
+      "status": "완료",
+      "next": "내일 12:00 4화",
+      "url": "https://novelpia.com/novel/468903"
+    },
+    {
+      "time": "18:00",
+      "title": "《배신당할 약혼자였던 내가 먼저 파혼하고 잠적했다》",
+      "detail": "매일 1편 · 오늘 4화 공개 · 비축 5~10화",
+      "status": "완료",
+      "next": "내일 18:00 5화",
+      "url": "https://novelpia.com/novel/468904"
+    }
+  ],
+  "metrics": [
+    { "label": "노벨피아 연재", "value": "4편", "sub": "매일 4편 공개" },
+    { "label": "라인 스티커", "value": "24종", "sub": "판매 17 · 심사 4 · 대기 3" },
+    { "label": "공공 설문·이벤트", "value": "166건", "sub": "누적 접수" },
+    { "label": "아마존 KDP", "value": "6권", "sub": "1~4 심사 · 5·6 예약" },
+    { "label": "구글 플레이 북스", "value": "9권", "sub": "계정 검토 대기" },
+    { "label": "유튜브 공개 영상", "value": "4편", "sub": "체리온 MV·쇼츠" }
+  ],
+  "links": [
+    { "name": "《호구 약혼자》", "host": "novelpia.com", "url": "https://novelpia.com/novel/467540" },
+    { "name": "《체리온》", "host": "novelpia.com", "url": "https://novelpia.com/novel/468106" },
+    { "name": "《무림맹 첩자》", "host": "novelpia.com", "url": "https://novelpia.com/novel/468903" },
+    { "name": "《배신당할 약혼자》", "host": "novelpia.com", "url": "https://novelpia.com/novel/468904" },
+    { "name": "소심한 고릴라의 블로그", "host": "blog.naver.com", "url": "https://blog.naver.com/nakahito2000" },
+    { "name": "티스토리 금융 채널", "host": "idea61160.tistory.com", "url": "https://idea61160.tistory.com" },
+    { "name": "체리온 《CROWN OF LIGHT》 MV", "host": "youtube.com", "url": "https://www.youtube.com/watch?v=K_I182pjXrs" },
+    { "name": "체리온 《CROWN OF LIGHT》 쇼츠", "host": "youtube.com", "url": "https://youtube.com/shorts/xNSheQPvUL0" }
+  ],
+  "memos": [
+    {
+      "type": "결정 대기",
+      "title": "신작 삽화 5종 재생성 여부",
+      "body": "판타지 신작 5~7·10화 등 5종 삽화의 인물 머리색·계절감이 1화 설정과 달라요. 따로 말씀 없으면 그대로 등록됩니다."
+    },
+    {
+      "type": "확인 필요",
+      "title": "라인 스티커 심사 4종",
+      "body": "심사를 통과하면 '판매 개시(Start Sale)'를 눌러야 판매가 시작돼요. 승인 알림이 오면 바로 알려 드릴게요."
+    },
+    {
+      "type": "확인 완료",
+      "title": "네이버 블로그 오늘자 글",
+      "body": "오늘 1편은 발행됐어요(「연금저축·IRP 900만원, 12월 31일 전에 채우는 법」). 내일 08:30 새 글도 자동으로 올라갑니다."
+    },
+    {
+      "type": "예약",
+      "title": "아마존 KDP 5·6권",
+      "body": "11/29 09:05 동시 등록 예약. 1~4권은 아직 심사 중이에요."
+    },
+    {
+      "type": "결정 대기",
+      "title": "유페이퍼 재구상",
+      "body": "《하루 10분, 생활비 방어 실전서》를 5만~6만 자로 늘릴지 방향을 기다리는 중이에요(ISBN 건당 1,000원)."
+    },
+    {
+      "type": "참고",
+      "title": "신작 2종 1주일 반응 보기",
+      "body": "무협 12:00 · 판타지 18:00에 매일 1편씩. 1주일 뒤 반응을 보고 계속할지 정하면 돼요."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>마루 비서실</title>
+<meta name="description" content="순스튜디오 본부의 연재·출판·미디어 파이프라인을 한 화면에서 보는 마루 비서실 대시보드." />
+<meta name="theme-color" content="#F6F1E8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="마루 비서실" />
+<meta property="og:title" content="마루 비서실" />
+<meta property="og:description" content="순스튜디오 본부 · 5개 파트 가동 중" />
+<meta property="og:image" content="./assets/office.png" />
+<link rel="manifest" href="./manifest.json" />
+<link rel="icon" href="./assets/icon-192.png" sizes="192x192" type="image/png" />
+<link rel="apple-touch-icon" href="./assets/icon-180.png" />
+<link rel="stylesheet" href="./styles.css" />
+</head>
+<body class="motion-on">
+<div class="app">
+
+  <div class="appbar">
+    <header class="topbar">
+      <div class="brand">
+        <div class="badge" aria-hidden="true">M.</div>
+        <div class="brand-text">
+          <h1>Maru Office</h1>
+          <p id="subtitle">순스튜디오 본부 · 5개 파트 가동 중</p>
+        </div>
+      </div>
+      <div class="live" title="마지막 갱신 시각">
+        <span class="live-dot"></span><span class="live-label">LIVE</span>
+        <span class="live-time" id="liveTime">--:--</span>
+      </div>
+    </header>
+
+    <nav class="tabs" role="tablist" aria-label="화면 전환">
+      <button class="tab is-active" role="tab" id="tab-office" aria-selected="true" aria-controls="panel-office" data-tab="office">오피스</button>
+      <button class="tab" role="tab" id="tab-workshop" aria-selected="false" aria-controls="panel-workshop" data-tab="workshop">작업실</button>
+      <button class="tab" role="tab" id="tab-status" aria-selected="false" aria-controls="panel-status" data-tab="status">현황</button>
+      <button class="tab" role="tab" id="tab-memo" aria-selected="false" aria-controls="panel-memo" data-tab="memo">메모</button>
+    </nav>
+  </div>
+
+  <main>
+    <!-- 오피스 -->
+    <section id="panel-office" role="tabpanel" aria-labelledby="tab-office" class="panel">
+      <div class="banner card">
+        <div class="eyebrow">Workspace</div>
+        <h2 id="headline">대표님, 5개 파트가 가동 중이에요</h2>
+        <p class="hint" id="hint">공간이나 담당자를 탭하면 최근 진행 현황을 바로 볼 수 있어요.</p>
+        <div class="chips">
+          <button class="chip chip-toggle" id="motionToggle" aria-pressed="true">
+            <span class="switch" aria-hidden="true"><span class="knob"></span></span>
+            <span id="motionLabel">모션 ON</span>
+          </button>
+          <span class="chip" id="chipParts">가동 5파트</span>
+          <span class="chip">마루 × 세컨폰</span>
+        </div>
+      </div>
+
+      <div class="map card" id="mapWrap">
+        <img src="./assets/office.png" alt="마루 비서실 아이소메트릭 오피스" id="officeImg" width="1536" height="1024" />
+        <div class="pins" id="pins"></div>
+        <span class="map-tag">순스튜디오 본부</span>
+      </div>
+
+      <div class="part-chips" id="partChips" role="tablist" aria-label="파트 선택"></div>
+
+      <div class="detail card" id="partDetail" aria-live="polite">
+        <p class="loading">현황을 불러오는 중…</p>
+      </div>
+    </section>
+
+    <!-- 작업실 -->
+    <section id="panel-workshop" role="tabpanel" aria-labelledby="tab-workshop" class="panel" hidden>
+      <div class="section-head">
+        <h2>작업실</h2>
+        <p>매일 자동으로 돌아가는 5개 스케줄</p>
+      </div>
+      <div class="stack" id="scheduleList">
+        <p class="loading">스케줄을 불러오는 중…</p>
+      </div>
+    </section>
+
+    <!-- 현황 -->
+    <section id="panel-status" role="tabpanel" aria-labelledby="tab-status" class="panel" hidden>
+      <div class="section-head">
+        <h2>현황</h2>
+        <p>파이프라인 요약과 공개 링크</p>
+      </div>
+      <div class="metrics" id="metrics"></div>
+      <div class="card list-card" id="links">
+        <div class="list-head">공개 링크</div>
+      </div>
+    </section>
+
+    <!-- 메모 -->
+    <section id="panel-memo" role="tabpanel" aria-labelledby="tab-memo" class="panel" hidden>
+      <div class="section-head">
+        <h2>메모</h2>
+        <p>대표님 확인·결정을 기다리는 항목</p>
+      </div>
+      <div class="stack" id="memoList">
+        <p class="loading">메모를 불러오는 중…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>마루 비서실 · 순스튜디오</span>
+    <span id="footUpdated"></span>
+  </footer>
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
