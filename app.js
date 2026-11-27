@@ -227,6 +227,7 @@
     fetch(DATA_URL, { cache: 'no-store' })
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function (data) {
+        if (!data || !data.parts || !data.parts.length) throw new Error('empty status');
         render(data);
         try { localStorage.setItem(LS_DATA, JSON.stringify(data)); } catch (e) {}
       })

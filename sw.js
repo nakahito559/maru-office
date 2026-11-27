@@ -75,7 +75,12 @@ self.addEventListener('fetch', function (event) {
         }
         return res;
       }).catch(function () {
-        if (req.mode === 'navigate') return caches.match('./index.html');
+        if (req.mode === 'navigate') {
+          return caches.match('./index.html').then(function (page) {
+            return page || new Response('', { status: 504, statusText: 'offline' });
+          });
+        }
+        return new Response('', { status: 504, statusText: 'offline' });
       });
     })
   );
